@@ -1,4 +1,7 @@
-.env.local
+node_modules/
 .DS_Store
-.vscode
-node_modules
+.cache/
+dist/
+coverage/
+.vscode/
+.env.local
