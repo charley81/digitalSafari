@@ -1,0 +1,24 @@
+{
+  "name": "digitalSafari",
+  "version": "1.0.0",
+  "description": "> Adopt your next pet right from the comfort of you own home on digitalSafari",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charley81/digitalSafari.git"
+  },
+  "keywords": [],
+  "author": "Chris Harley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charley81/digitalSafari/issues"
+  },
+  "homepage": "https://github.com/charley81/digitalSafari#readme",
+  "devDependencies": {
+    "prettier": "^2.1.0"
+  }
+}
