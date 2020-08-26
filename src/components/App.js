@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 import SearchParams from './SearchParams';
-import client from './ApiData';
+import PetData from './PetData';
 
-console.log(client);
+console.log(PetData);
 
 export default function App() {
   return (
