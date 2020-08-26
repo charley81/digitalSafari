@@ -16,7 +16,6 @@
 body {
   font-family: sans-serif;
   line-height: 1.4;
-  font-size: 1.1rem;
   background-color: var(--color-light);
   color: var(--color-dark);
   font-family: 'Raleway', sans-serif;
@@ -36,6 +35,11 @@ header {
 
 .search-params {
   margin: 2rem 1rem;
+}
+
+.search-params form label {
+  display: block;
+  margin: 0.5rem 0;
 }
 
 .search-params input {
