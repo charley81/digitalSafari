@@ -1,9 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import SearchParams from './SearchParams';
-import PetData from './PetData';
-
-console.log(PetData);
 
 export default function App() {
   return (
@@ -12,6 +9,7 @@ export default function App() {
         <h1 className='logo'>
           digital<span>Safari</span>{' '}
         </h1>
+        <p>This is a test site... Date limited to Seattle, WA</p>
       </header>
       <SearchParams />
     </div>

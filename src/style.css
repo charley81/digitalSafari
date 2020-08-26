@@ -30,11 +30,21 @@ header {
   color: var(--color-primary);
 }
 
+.logo + p {
+  font-size: 10px;
+}
+
 .search-params {
   margin: 2rem 1rem;
 }
 
 .search-params input {
+  display: block;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.search-params select {
   display: block;
   width: 100%;
   font-family: 'Raleway', sans-serif;
