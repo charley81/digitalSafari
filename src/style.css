@@ -16,10 +16,13 @@
 body {
   font-family: sans-serif;
   line-height: 1.4;
-  font-size: 1.1rem;
   background-color: var(--color-light);
   color: var(--color-dark);
   font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -30,11 +33,26 @@ header {
   color: var(--color-primary);
 }
 
+.logo + p {
+  font-size: 10px;
+}
+
 .search-params {
   margin: 2rem 1rem;
 }
 
+.search-params form label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
 .search-params input {
+  display: block;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.search-params select {
   display: block;
   width: 100%;
   font-family: 'Raleway', sans-serif;
@@ -55,4 +73,25 @@ header {
   background-color: transparent;
   color: var(--color-dark);
   border: 1px solid var(--color-primary);
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pet-card {
+  display: flex;
+  background: var(--color-secondary);
+  margin: 1rem 0;
+  padding: 0.25rem;
+  grid-gap: 1rem;
+  color: var(--color-dark);
+  align-items: center;
+  border: 2px solid var(--color-primary);
+  border-radius: 5px;
+}
+
+.pet-card img {
+  border-radius: 5px;
 }
