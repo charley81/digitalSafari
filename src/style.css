@@ -21,6 +21,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   padding: 1rem;
 }
@@ -69,4 +73,25 @@ header {
   background-color: transparent;
   color: var(--color-dark);
   border: 1px solid var(--color-primary);
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pet-card {
+  display: flex;
+  background: var(--color-secondary);
+  margin: 1rem 0;
+  padding: 0.25rem;
+  grid-gap: 1rem;
+  color: var(--color-dark);
+  align-items: center;
+  border: 2px solid var(--color-primary);
+  border-radius: 5px;
+}
+
+.pet-card img {
+  border-radius: 5px;
 }
