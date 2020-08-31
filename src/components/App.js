@@ -1,21 +1,19 @@
 import React from 'react';
+import Header from './Header';
+import Details from './Details';
 import { render } from 'react-dom';
+import { Router, Link } from '@reach/router';
 import SearchParams from './SearchParams';
 
 export default function App() {
   return (
     <React.StrictMode>
       <div>
-        <header>
-          <h1 className='logo'>
-            digital<span>Safari</span>{' '}
-          </h1>
-          <p>
-            This is a test site... Data is limited to Seattle, WA & San
-            Francisco, CA
-          </p>
-        </header>
-        <SearchParams />
+        <Header />
+        <Router>
+          <SearchParams path='/' />
+          <Details path='/details/:id' />
+        </Router>
       </div>
     </React.StrictMode>
   );
