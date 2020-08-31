@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Details from './Details';
 import { render } from 'react-dom';
-import { Router, Link } from '@reach/router';
+import { Router } from '@reach/router';
 import SearchParams from './SearchParams';
 
 export default function App() {
