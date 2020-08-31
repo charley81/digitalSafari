@@ -27,7 +27,19 @@ class Details extends React.Component {
     if (this.state.loading) {
       return <Spinner />;
     }
-    return;
+
+    const { animal, breed, location, description, name } = this.state;
+
+    return (
+      <div className='details'>
+        <div>
+          <h1>{name}</h1>
+          <h2>{`${animal} - ${breed} - ${location}`}</h2>
+          <button>Adopt {name}</button>
+          <p>{description}</p>
+        </div>
+      </div>
+    );
   }
 }
 
