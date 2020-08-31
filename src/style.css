@@ -19,6 +19,7 @@ body {
   background-color: var(--color-light);
   color: var(--color-dark);
   font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
 }
 
 a {
@@ -99,4 +100,48 @@ header .logo + p {
 
 .pet-card img {
   border-radius: 5px;
+}
+
+.details {
+  background: var(--color-secondary);
+  border: 1px solid var(--color-primary);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.details button {
+  width: 50%;
+  display: block;
+  margin: 1rem auto;
+  background: var(--color-primary);
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-size: 0.75rem;
+}
+
+.details button:hover {
+  background: transparent;
+  border: 1px solid var(--color-primary);
+}
+
+.details h1,
+.details h2 {
+  text-align: center;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.carousel img {
+  width: 150px;
+  height: 150px;
+}
+
+.carousel-smaller img {
+  width: 50px;
+  height: 50px;
 }
