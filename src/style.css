@@ -27,13 +27,18 @@ a {
 
 header {
   padding: 1rem;
+  color: var(--color-dark);
 }
 
-.logo span {
+header .logo span {
   color: var(--color-primary);
 }
 
-.logo + p {
+header .logo {
+  color: var(--color-dark);
+}
+
+header .logo + p {
   font-size: 10px;
 }
 
